@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pahdatabase xmlns="http://www.astrochemistry.org/pahdb/theoretical" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.astrochemistry.org/pahdb/theoretical https://www.astrochemistry.org/pahdb/schemas/theoretical.xsd" database="theoretical" version="3.20" date="2019-09-12" full="false">
+ <comment>
+
+This is the NASA Ames PAH IR Spectroscopic Database. The contents of
+the database are described in Bauschlicher et al. (2010), Boersma et
+al. (2014) and Mattioda et al. (2020). The database website is located
+at https://www.astrochemistry.org/pahdb/.
+
+You are kindly asked to cite the following papers when using the database:
+
+    Boersma, C., Bauschlicher, C.W., Jr., Ricca, A., Mattioda, A. L.,
+    Cami, J., Peeters, E., Sánchez de Armas, F., Puerta Saborido, G.,
+    Hudgins, D M., and Allamandola, L.J., &quot;The NASA Ames PAH IR Spectroscopic
+    database version 2.00: updated content, website and on/offline tools&quot;,
+    2014, The Astrophysical Journal Supplement Series, 211, 8
+
+    A copy of the paper can be downloaded from NASA&amp;apos;s ADS services:
+
+    https://ui.adsabs.harvard.edu/abs/2014ApJS..211....8B
+
+    Bauschlicher, C.W., Jr., Boersma, C., Ricca, A., Mattioda, A. L.,
+    Cami, J., Peeters, E., Sánchez de Armas, F., Puerta Saborido, G.,
+    Hudgins, D M., and Allamandola, L.J., &quot;The NASA Ames Polycyclic
+    Aromatic Hydrocarbon Infrared Spectroscopic Database: The Computed
+    Spectra&quot;, 2010, The Astrophysical Journal Supplement Series, 189, 341
+
+    A copy of the paper can be downloaded from NASA&amp;apos;s ADS services:
+
+    https://ui.adsabs.harvard.edu/abs/2010ApJS..189..341B
+
+    Mattioda, A.L., Hudgins, D.M., Boersma, C., Ricca, A., Peeters,
+    E., Cami, J., Sánches de Armas, F., Puerta Saborido, G.,
+    Bauschlicher, C W., J., and Allamandola, L.J. &quot;The Nasa Ames PAH
+    IR Spectroscopic Database: The Laboratory Spectra&quot;, 2020, The
+    Astrophysical Journal Supplement Series, 251, 22
+
+    A copy of the paper can be downloaded from NASA&amp;apos;s ADS services:
+
+    https://ui.adsabs.harvard.edu/abs/2020ApJS..251...22M
+
+    Also see https://www.astrochemistry.org/pahdb/theoretical/3.20/help/citation.
+Notes:
+    Version 3.20 adds a large number of totally resonant sextet
+(TRS) PAHs, denoted as &quot;Clar PAHs&quot; for simplicity, containing
+armchair edges with a number of carbons ranging from 18 up to
+150. The spectra of both neutral and charged (cations and anions)
+Clar PAHs are added.
+
+Version 3.10 (internal) added the PAHs containing only straight edges
+as described in Ricca et al. (2018), which include even-carbon
+(neutral and charged) PAHs ranging in size from C₂₂H₁₂ to C₁₄₈H₃₀ and
+odd-carbon (neutral and charged) PAHs ranging in size from C₃₁H₁₅ to
+C₁₂₇H₃₁.
+
+Version 3.00 introduced multiple scale factors and has the Gaussian
+options for each run are more fully described. A large number of new
+species were added, including species with 5- and 7- membered rings,
+additional oval species, species with bay regions, species with side
+groups, some acridene species, and the neutral species from Mackie et
+al. (2015), with 1525 CnHm and 803 fully dehydrogenates species.
+</comment>
+ <species>
+  <specie uid="465">
+   <comments>
+    <comment type="generic"># becke3lyp/4-31G freq scfcyc=255 scf=(novaracc,conver=8)
+# int=(grid ultrafine) iop(5/22=1012,5/37=1)   guess=check geom=check</comment>
+   </comments>
+   <references>
+    <reference>Bauschlicher, C.W., Jr., &quot;Infrared Spectra of Polycyclic Aromatic Hydrocarbons: Nitrogen Substitution&quot;, 1998, Chem. Phys., 234, 87 doi:10.1016/s0301-0104(98)00139-6</reference>
+   </references>
+   <formula>C11H7N</formula>
+   <charge>0</charge>
+   <symmetry>1-A'</symmetry>
+   <weight>153.05784500</weight>
+   <total_e>-477.51179426</total_e>
+   <vib_e>92.95700000</vib_e>
+   <method>RB3LYP</method>
+   <n_solo>0</n_solo>
+   <n_duo>0</n_duo>
+   <n_trio>3</n_trio>
+   <n_quartet>4</n_quartet>
+   <n_quintet>0</n_quintet>
+   <n_ch2>0</n_ch2>
+   <n_chx>0</n_chx>
+   <geometry>
+    <atom>
+     <position>1</position>
+     <x>0.00000000</x>
+     <y>0.27853700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>2</position>
+     <x>-1.03502600</x>
+     <y>-0.71210400</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>3</position>
+     <x>-0.68173700</x>
+     <y>-2.08684000</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>4</position>
+     <x>0.63707100</x>
+     <y>-2.48071400</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>5</position>
+     <x>1.66577500</x>
+     <y>-1.51789700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>6</position>
+     <x>1.36466700</x>
+     <y>-0.16400700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>7</position>
+     <x>-0.36132700</x>
+     <y>1.65022500</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>8</position>
+     <x>-1.68556600</x>
+     <y>2.02595000</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>9</position>
+     <x>-2.71016300</x>
+     <y>1.05017800</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>10</position>
+     <x>-2.39047100</x>
+     <y>-0.28736900</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>11</position>
+     <x>2.70138600</x>
+     <y>-1.83314900</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>12</position>
+     <x>2.42122100</x>
+     <y>0.79358700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>13</position>
+     <x>3.28235900</x>
+     <y>1.58519300</y>
+     <z>0.00000000</z>
+     <type>7</type>
+    </atom>
+    <atom>
+     <position>14</position>
+     <x>0.89487500</x>
+     <y>-3.53230400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>15</position>
+     <x>-1.47460700</x>
+     <y>-2.82659000</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>16</position>
+     <x>0.42131100</x>
+     <y>2.39909800</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>17</position>
+     <x>-1.94858100</x>
+     <y>3.07685600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>18</position>
+     <x>-3.74725300</x>
+     <y>1.36328100</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>19</position>
+     <x>-3.17030500</x>
+     <y>-1.04082100</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+   </geometry>
+   <transitions>
+    <mode>
+     <frequency scale="0.9563">102.68930000</frequency>
+     <intensity>2.10720000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">132.48800000</frequency>
+     <intensity>4.74480000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">171.24050000</frequency>
+     <intensity>1.53850000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">202.28080000</frequency>
+     <intensity>0.20060000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">352.79300000</frequency>
+     <intensity>2.00770000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">370.11350000</frequency>
+     <intensity>1.17870000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">432.92900000</frequency>
+     <intensity>0.22740000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">453.72950000</frequency>
+     <intensity>11.88810000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">470.48730000</frequency>
+     <intensity>1.23500000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">490.72160000</frequency>
+     <intensity>0.13680000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">542.31180000</frequency>
+     <intensity>0.77830000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">585.02800000</frequency>
+     <intensity>1.42090000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">592.31590000</frequency>
+     <intensity>0.45990000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">650.64440000</frequency>
+     <intensity>0.04030000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">689.68990000</frequency>
+     <intensity>3.03520000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">738.84410000</frequency>
+     <intensity>1.01040000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">779.61770000</frequency>
+     <intensity>60.83670000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">793.31880000</frequency>
+     <intensity>0.67100000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">808.64520000</frequency>
+     <intensity>42.51540000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">852.25760000</frequency>
+     <intensity>0.38710000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">875.17560000</frequency>
+     <intensity>1.00520000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">922.88150000</frequency>
+     <intensity>0.12600000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">960.76250000</frequency>
+     <intensity>1.23950000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">986.04030000</frequency>
+     <intensity>1.30720000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">998.34230000</frequency>
+     <intensity>0.00010000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1011.05020000</frequency>
+     <intensity>2.10550000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1029.12710000</frequency>
+     <intensity>0.29020000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1065.96010000</frequency>
+     <intensity>1.79790000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1147.28910000</frequency>
+     <intensity>0.70400000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1169.04040000</frequency>
+     <intensity>1.96380000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1174.75590000</frequency>
+     <intensity>1.10950000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1207.90090000</frequency>
+     <intensity>5.77410000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1225.32830000</frequency>
+     <intensity>1.09210000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1267.58620000</frequency>
+     <intensity>4.61290000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1326.69040000</frequency>
+     <intensity>6.02220000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1350.96530000</frequency>
+     <intensity>5.73600000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1389.96820000</frequency>
+     <intensity>2.95130000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1433.17980000</frequency>
+     <intensity>0.40070000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1454.37070000</frequency>
+     <intensity>0.30330000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1494.87040000</frequency>
+     <intensity>13.68990000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1552.62620000</frequency>
+     <intensity>3.19100000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1571.83580000</frequency>
+     <intensity>6.66980000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1600.65990000</frequency>
+     <intensity>0.85310000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9097">2104.52560000</frequency>
+     <intensity>35.66530000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3055.93050000</frequency>
+     <intensity>0.65330000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3059.93550000</frequency>
+     <intensity>3.02060000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3066.79330000</frequency>
+     <intensity>8.17260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3078.13910000</frequency>
+     <intensity>4.16600000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3078.81980000</frequency>
+     <intensity>30.35990000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3090.19310000</frequency>
+     <intensity>26.18700000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3093.84220000</frequency>
+     <intensity>11.79250000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+   </transitions>
+  </specie>
+  <specie uid="463">
+   <comments>
+    <comment type="generic"># becke3lyp/4-31G freq scfcyc=255 scf=(novaracc,conver=8)
+# int=(grid ultrafine) iop(5/22=1012,5/37=1)   guess=check geom=check</comment>
+   </comments>
+   <references>
+    <reference>Bauschlicher, C.W., Jr., &quot;Infrared Spectra of Polycyclic Aromatic Hydrocarbons: Nitrogen Substitution&quot;, 1998, Chem. Phys., 234, 87 doi:10.1016/s0301-0104(98)00139-6</reference>
+   </references>
+   <formula>C11H7N</formula>
+   <charge>0</charge>
+   <symmetry>1-A'</symmetry>
+   <weight>153.05784500</weight>
+   <total_e>-477.51169640</total_e>
+   <vib_e>92.88880000</vib_e>
+   <method>RB3LYP</method>
+   <n_solo>1</n_solo>
+   <n_duo>2</n_duo>
+   <n_trio>0</n_trio>
+   <n_quartet>4</n_quartet>
+   <n_quintet>0</n_quintet>
+   <n_ch2>0</n_ch2>
+   <n_chx>0</n_chx>
+   <geometry>
+    <atom>
+     <position>1</position>
+     <x>0.00000000</x>
+     <y>0.78808100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>2</position>
+     <x>-1.17451000</x>
+     <y>-0.03512800</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>3</position>
+     <x>-1.02005600</x>
+     <y>-1.44783100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>4</position>
+     <x>0.22336100</x>
+     <y>-2.02697700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>5</position>
+     <x>1.39251700</x>
+     <y>-1.21099500</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>6</position>
+     <x>1.27301600</x>
+     <y>0.16930000</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>7</position>
+     <x>-0.14937000</x>
+     <y>2.20138200</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>8</position>
+     <x>-1.39949700</x>
+     <y>2.77476100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>9</position>
+     <x>-2.55892000</x>
+     <y>1.96167600</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>10</position>
+     <x>-2.44847300</x>
+     <y>0.58974200</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>11</position>
+     <x>2.68067500</x>
+     <y>-1.82350400</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>12</position>
+     <x>2.16246100</x>
+     <y>0.78807000</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>13</position>
+     <x>0.33406800</x>
+     <y>-3.10351500</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>14</position>
+     <x>-1.90825000</x>
+     <y>-2.06940400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>15</position>
+     <x>0.74090000</x>
+     <y>2.82045100</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>16</position>
+     <x>-1.50381900</x>
+     <y>3.85301200</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>17</position>
+     <x>-3.53683400</x>
+     <y>2.42804600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>18</position>
+     <x>-3.33567700</x>
+     <y>-0.03371900</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>19</position>
+     <x>3.73352800</x>
+     <y>-2.33228400</y>
+     <z>0.00000000</z>
+     <type>7</type>
+    </atom>
+   </geometry>
+   <transitions>
+    <mode>
+     <frequency scale="0.9563">86.61740000</frequency>
+     <intensity>1.38100000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">135.27100000</frequency>
+     <intensity>4.10180000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">178.11540000</frequency>
+     <intensity>1.26220000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">218.42600000</frequency>
+     <intensity>3.21780000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">350.84220000</frequency>
+     <intensity>2.02870000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">382.80580000</frequency>
+     <intensity>0.02430000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">390.67100000</frequency>
+     <intensity>0.04350000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">439.91630000</frequency>
+     <intensity>0.08780000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">477.05250000</frequency>
+     <intensity>15.83560000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">510.14500000</frequency>
+     <intensity>0.26500000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">558.65650000</frequency>
+     <intensity>1.35530000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">563.19100000</frequency>
+     <intensity>1.03730000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">626.13700000</frequency>
+     <intensity>2.84700000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">659.29180000</frequency>
+     <intensity>1.74140000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">674.14530000</frequency>
+     <intensity>0.01160000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">750.59230000</frequency>
+     <intensity>35.26370000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">756.85540000</frequency>
+     <intensity>0.39960000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">768.50950000</frequency>
+     <intensity>0.23520000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">823.10950000</frequency>
+     <intensity>33.11730000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">867.00850000</frequency>
+     <intensity>18.04550000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">880.67450000</frequency>
+     <intensity>1.13180000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">911.39310000</frequency>
+     <intensity>12.53580000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">951.77780000</frequency>
+     <intensity>2.27940000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">957.81280000</frequency>
+     <intensity>4.41260000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">974.11000000</frequency>
+     <intensity>0.49270000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">995.47930000</frequency>
+     <intensity>0.00000000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1013.74500000</frequency>
+     <intensity>0.98100000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1116.23510000</frequency>
+     <intensity>2.15350000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1150.89080000</frequency>
+     <intensity>2.68280000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1161.79740000</frequency>
+     <intensity>1.33060000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1167.12980000</frequency>
+     <intensity>2.03040000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1202.47120000</frequency>
+     <intensity>1.48300000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1257.59320000</frequency>
+     <intensity>0.51390000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1265.59430000</frequency>
+     <intensity>8.95880000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1340.61590000</frequency>
+     <intensity>1.39260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1356.76910000</frequency>
+     <intensity>4.47900000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1363.46500000</frequency>
+     <intensity>3.07040000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1427.48830000</frequency>
+     <intensity>1.15260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1460.22750000</frequency>
+     <intensity>0.44770000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1489.49280000</frequency>
+     <intensity>7.41570000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1543.00340000</frequency>
+     <intensity>0.44440000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1582.61660000</frequency>
+     <intensity>5.59160000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1606.05280000</frequency>
+     <intensity>4.26280000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9097">2110.33570000</frequency>
+     <intensity>48.01890000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3054.97490000</frequency>
+     <intensity>2.57400000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3059.14680000</frequency>
+     <intensity>0.60820000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3063.05510000</frequency>
+     <intensity>6.10140000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3073.27200000</frequency>
+     <intensity>20.71790000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3075.42830000</frequency>
+     <intensity>13.83330000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3088.08390000</frequency>
+     <intensity>32.13230000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3092.40570000</frequency>
+     <intensity>8.17450000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+   </transitions>
+  </specie>
+  <specie uid="466">
+   <comments>
+    <comment type="generic"># becke3lyp/4-31G freq scfcyc=255 scf=(novaracc,conver=8)
+# int=(grid ultrafine) iop(5/22=1012,5/37=1)   guess=check geom=check</comment>
+   </comments>
+   <references>
+    <reference>Bauschlicher, C.W., Jr., &quot;Infrared Spectra of Polycyclic Aromatic Hydrocarbons: Nitrogen Substitution&quot;, 1998, Chem. Phys., 234, 87 doi:10.1016/s0301-0104(98)00139-6</reference>
+   </references>
+   <formula>C11H7N+</formula>
+   <charge>1</charge>
+   <symmetry>2-A&quot;</symmetry>
+   <weight>153.05784500</weight>
+   <total_e>-477.21508489</total_e>
+   <vib_e>92.51000000</vib_e>
+   <method>UB3LYP</method>
+   <n_solo>0</n_solo>
+   <n_duo>0</n_duo>
+   <n_trio>3</n_trio>
+   <n_quartet>4</n_quartet>
+   <n_quintet>0</n_quintet>
+   <n_ch2>0</n_ch2>
+   <n_chx>0</n_chx>
+   <geometry>
+    <atom>
+     <position>1</position>
+     <x>0.00000000</x>
+     <y>0.27988100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>2</position>
+     <x>-1.03074800</x>
+     <y>-0.71503100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>3</position>
+     <x>-0.68006600</x>
+     <y>-2.08095100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>4</position>
+     <x>0.66751500</x>
+     <y>-2.48034900</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>5</position>
+     <x>1.67854100</x>
+     <y>-1.53060600</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>6</position>
+     <x>1.36398700</x>
+     <y>-0.14961900</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>7</position>
+     <x>-0.36490300</x>
+     <y>1.64363100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>8</position>
+     <x>-1.71785900</x>
+     <y>2.02548500</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>9</position>
+     <x>-2.72255100</x>
+     <y>1.06106800</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>10</position>
+     <x>-2.38596300</x>
+     <y>-0.30010200</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>11</position>
+     <x>2.71718400</x>
+     <y>-1.83302400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>12</position>
+     <x>2.41599900</x>
+     <y>0.79854600</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>13</position>
+     <x>3.28314300</x>
+     <y>1.58512400</y>
+     <z>0.00000000</z>
+     <type>7</type>
+    </atom>
+    <atom>
+     <position>14</position>
+     <x>0.91657700</x>
+     <y>-3.53290600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>15</position>
+     <x>-1.46213600</x>
+     <y>-2.83106500</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>16</position>
+     <x>0.40623000</x>
+     <y>2.40460600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>17</position>
+     <x>-1.97272600</x>
+     <y>3.07696300</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>18</position>
+     <x>-3.76274900</x>
+     <y>1.35789400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>19</position>
+     <x>-3.16808700</x>
+     <y>-1.05005600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+   </geometry>
+   <transitions>
+    <mode>
+     <frequency scale="0.9563">95.77040000</frequency>
+     <intensity>2.02350000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">130.58690000</frequency>
+     <intensity>3.69310000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">159.07900000</frequency>
+     <intensity>2.53640000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">193.42650000</frequency>
+     <intensity>0.00010000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">345.57080000</frequency>
+     <intensity>0.24690000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">349.06310000</frequency>
+     <intensity>0.55140000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">408.46450000</frequency>
+     <intensity>16.01930000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">421.79510000</frequency>
+     <intensity>1.38370000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">436.45460000</frequency>
+     <intensity>1.46820000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">476.26500000</frequency>
+     <intensity>0.34210000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">520.48380000</frequency>
+     <intensity>1.20140000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">522.28660000</frequency>
+     <intensity>3.69670000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">583.59580000</frequency>
+     <intensity>0.46480000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">636.87920000</frequency>
+     <intensity>0.24380000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">674.95160000</frequency>
+     <intensity>5.14320000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">732.48910000</frequency>
+     <intensity>2.19050000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">760.47930000</frequency>
+     <intensity>70.59520000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">793.12920000</frequency>
+     <intensity>0.13890000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">806.58900000</frequency>
+     <intensity>36.25170000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">847.07030000</frequency>
+     <intensity>3.53260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">896.02910000</frequency>
+     <intensity>1.35210000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">948.22660000</frequency>
+     <intensity>0.07880000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">980.18170000</frequency>
+     <intensity>0.54240000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1003.84820000</frequency>
+     <intensity>31.72280000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1015.78990000</frequency>
+     <intensity>0.24550000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1022.14320000</frequency>
+     <intensity>0.01130000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1036.94980000</frequency>
+     <intensity>0.30260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1063.67660000</frequency>
+     <intensity>2.60250000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1102.59540000</frequency>
+     <intensity>5.31610000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1175.21140000</frequency>
+     <intensity>50.62100000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1180.95990000</frequency>
+     <intensity>7.82400000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1209.55980000</frequency>
+     <intensity>67.44640000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1228.78920000</frequency>
+     <intensity>119.57980000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1272.26360000</frequency>
+     <intensity>14.48670000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1325.08270000</frequency>
+     <intensity>51.75460000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1355.14990000</frequency>
+     <intensity>3.95030000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1393.64440000</frequency>
+     <intensity>20.46380000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1422.71440000</frequency>
+     <intensity>3.64250000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1434.46370000</frequency>
+     <intensity>5.95960000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1462.99000000</frequency>
+     <intensity>2.75450000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1487.06470000</frequency>
+     <intensity>92.07540000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1510.67390000</frequency>
+     <intensity>46.57960000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1558.55670000</frequency>
+     <intensity>0.70970000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9097">2081.67710000</frequency>
+     <intensity>107.02260000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3085.18290000</frequency>
+     <intensity>0.40950000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3087.27040000</frequency>
+     <intensity>0.68520000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3089.02510000</frequency>
+     <intensity>0.66810000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3103.00850000</frequency>
+     <intensity>0.90860000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3103.09070000</frequency>
+     <intensity>0.60130000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3114.96460000</frequency>
+     <intensity>0.33500000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3115.30300000</frequency>
+     <intensity>1.46560000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+   </transitions>
+  </specie>
+  <specie uid="464">
+   <comments>
+    <comment type="generic"># becke3lyp/4-31G freq scfcyc=255 scf=(novaracc,conver=8)
+# int=(grid ultrafine) iop(5/22=1012,5/37=1)   guess=check geom=check</comment>
+   </comments>
+   <references>
+    <reference>Bauschlicher, C.W., Jr., &quot;Infrared Spectra of Polycyclic Aromatic Hydrocarbons: Nitrogen Substitution&quot;, 1998, Chem. Phys., 234, 87 doi:10.1016/s0301-0104(98)00139-6</reference>
+   </references>
+   <formula>C11H7N+</formula>
+   <charge>1</charge>
+   <symmetry>2-A&quot;</symmetry>
+   <weight>153.05784500</weight>
+   <total_e>-477.21352624</total_e>
+   <vib_e>92.42770000</vib_e>
+   <method>UB3LYP</method>
+   <n_solo>1</n_solo>
+   <n_duo>2</n_duo>
+   <n_trio>0</n_trio>
+   <n_quartet>4</n_quartet>
+   <n_quintet>0</n_quintet>
+   <n_ch2>0</n_ch2>
+   <n_chx>0</n_chx>
+   <geometry>
+    <atom>
+     <position>1</position>
+     <x>0.00000000</x>
+     <y>0.78331800</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>2</position>
+     <x>-1.17562400</x>
+     <y>-0.03792700</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>3</position>
+     <x>-1.02846200</x>
+     <y>-1.44630100</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>4</position>
+     <x>0.23547400</x>
+     <y>-2.04116500</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>5</position>
+     <x>1.38782700</x>
+     <y>-1.24127800</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>6</position>
+     <x>1.26504400</x>
+     <y>0.17213900</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>7</position>
+     <x>-0.14425700</x>
+     <y>2.19552600</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>8</position>
+     <x>-1.41686100</x>
+     <y>2.78597400</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>9</position>
+     <x>-2.55729900</x>
+     <y>1.98637200</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>10</position>
+     <x>-2.44243200</x>
+     <y>0.58294900</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>11</position>
+     <x>2.68088200</x>
+     <y>-1.82924300</y>
+     <z>0.00000000</z>
+     <type>6</type>
+    </atom>
+    <atom>
+     <position>12</position>
+     <x>2.16206500</x>
+     <y>0.77980400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>13</position>
+     <x>0.33111400</x>
+     <y>-3.11843700</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>14</position>
+     <x>-1.91232900</x>
+     <y>-2.07294000</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>15</position>
+     <x>0.74124500</x>
+     <y>2.82029600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>16</position>
+     <x>-1.50850200</x>
+     <y>3.86384400</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>17</position>
+     <x>-3.53915400</x>
+     <y>2.44105700</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>18</position>
+     <x>-3.33682300</x>
+     <y>-0.02891600</y>
+     <z>0.00000000</z>
+     <type>1</type>
+    </atom>
+    <atom>
+     <position>19</position>
+     <x>3.74809000</x>
+     <y>-2.30670000</y>
+     <z>0.00000000</z>
+     <type>7</type>
+    </atom>
+   </geometry>
+   <transitions>
+    <mode>
+     <frequency scale="0.9563">81.98800000</frequency>
+     <intensity>1.00450000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">133.25910000</frequency>
+     <intensity>4.48070000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">169.11450000</frequency>
+     <intensity>2.36050000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">207.81520000</frequency>
+     <intensity>2.39440000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">343.37940000</frequency>
+     <intensity>0.43560000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">364.01810000</frequency>
+     <intensity>0.00850000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">376.66870000</frequency>
+     <intensity>5.54610000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">408.19120000</frequency>
+     <intensity>3.12660000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">423.41400000</frequency>
+     <intensity>20.05850000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">490.39570000</frequency>
+     <intensity>2.01090000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">516.22450000</frequency>
+     <intensity>1.60300000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">554.56760000</frequency>
+     <intensity>1.91930000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">604.45030000</frequency>
+     <intensity>8.25140000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">630.37690000</frequency>
+     <intensity>3.42970000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">671.02070000</frequency>
+     <intensity>1.31570000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">729.36350000</frequency>
+     <intensity>0.98300000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">751.61750000</frequency>
+     <intensity>46.84000000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">756.47510000</frequency>
+     <intensity>0.25790000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">840.27780000</frequency>
+     <intensity>23.34780000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">880.92880000</frequency>
+     <intensity>2.87140000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">887.32080000</frequency>
+     <intensity>21.76370000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">931.07000000</frequency>
+     <intensity>5.36880000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">940.03420000</frequency>
+     <intensity>8.86200000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">974.39680000</frequency>
+     <intensity>3.26340000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">992.89660000</frequency>
+     <intensity>0.14860000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1021.10940000</frequency>
+     <intensity>0.02880000</intensity>
+     <symmetry>A&quot;</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9563">1022.41750000</frequency>
+     <intensity>11.62630000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1087.87600000</frequency>
+     <intensity>2.72230000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1119.65790000</frequency>
+     <intensity>18.94400000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1158.95790000</frequency>
+     <intensity>6.32220000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1179.02650000</frequency>
+     <intensity>38.48950000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1214.77330000</frequency>
+     <intensity>254.04120000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1249.13730000</frequency>
+     <intensity>5.77750000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1278.40750000</frequency>
+     <intensity>8.91610000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1320.05420000</frequency>
+     <intensity>1.63990000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1352.66960000</frequency>
+     <intensity>12.96790000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1376.12210000</frequency>
+     <intensity>57.23300000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1418.37180000</frequency>
+     <intensity>15.03390000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1452.97790000</frequency>
+     <intensity>36.26580000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1463.31580000</frequency>
+     <intensity>5.27750000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1484.61030000</frequency>
+     <intensity>93.94040000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1518.13600000</frequency>
+     <intensity>42.90140000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9523">1542.02450000</frequency>
+     <intensity>26.38060000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9097">2106.61850000</frequency>
+     <intensity>103.14300000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3084.38360000</frequency>
+     <intensity>0.03880000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3086.41500000</frequency>
+     <intensity>1.09490000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3087.81070000</frequency>
+     <intensity>0.23310000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3091.01430000</frequency>
+     <intensity>1.75490000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3102.50260000</frequency>
+     <intensity>0.21080000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3111.83850000</frequency>
+     <intensity>1.78630000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+    <mode>
+     <frequency scale="0.9595">3114.49560000</frequency>
+     <intensity>0.07060000</intensity>
+     <symmetry>A'</symmetry>
+    </mode>
+   </transitions>
+  </specie>
+ </species>
+</pahdatabase>
