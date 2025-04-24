@@ -1,3 +1,17 @@
 A file made to look at how I set up the programming for this project step to step
 
-1. 
+1. Change Python Locator from native to js
+2. Create conda environment named pahdb
+3. Conda activate pahdb 
+4. Install all necessary pips via miniconda
+    ipykernel
+    jupyter
+    git+https://github.com/PAHdb/AmesPAHdbPythonSuite.git
+5. Select python interpreter and select pahdb (bottom right)
+    This will work if you run a file and have something like C:/Users/Mustafa/miniconda3/envs/pahdb/python.exe in terminal
+6. Create jupyter file and test with 
+    from amespahdbpythonsuite.amespahdb import AmesPAHdb
+    pahdb = AmesPAHdb(filename='/Users/Mustafa/Documents/GitHub/Project-Cynap/Cynapfolder/pahdb-selection-theoretical-v3.20_o883kau2kcfj4kTMhZ0.xml', cache=True, check=False)
+
+7. To move the environment from another device you can use conda env export --no-builds > pahdb_env.yml
+8. Put the pahdb_env.yml file somewhere accessible, for my case its "C:\Users\Mustafa\pahdb_env.yml"
