@@ -1,0 +1,17 @@
+TS forCNna
+
+Principal axes and moments of inertia in atomic units:
+                           1         2         3
+     Eigenvalues    1219.483541 960.954403  180.43794                
+           X            0.99986  -0.01658   0.00000               
+           Y            0.01658   0.99986   0.00000  
+           Z           -0.00000  -0.00000   1.00000
+
+TS for CNna+
+
+Principal axes and moments of inertia in atomic units:
+                           1         2         3
+     Eigenvalues -- 1322.144212  337.032003 659.17620
+           X            0.99991   0.01352   0.00005
+           Y           -0.01352   0.99991   0.00009
+           Z           -0.00005  -0.00009   1.00000
