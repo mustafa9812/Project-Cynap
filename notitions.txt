@@ -1,0 +1,16 @@
+3.66 eV for neutral
+
+transition sum of state
+parent density of state
+
+transition density of state
+transition density of state
+E_bond = 25487.328928 (if statement)
+
+use T effective for rate
+
+oscillator strength & electornic energy given
+book shows RF units
+
+9 to 10 friday
+2 to 3 friday next week
