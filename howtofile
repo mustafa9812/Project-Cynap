@@ -15,3 +15,9 @@ A file made to look at how I set up the programming for this project step to ste
 
 7. To move the environment from another device you can use conda env export --no-builds > pahdb_env.yml
 8. Put the pahdb_env.yml file somewhere accessible, for my case its "C:\Users\Mustafa\pahdb_env.yml"
+
+9. To start densum files in PowerShell use this (laptop):
+Copy-Item "C:\Users\musta\OneDrive\Documenten\Multiwell\Models\1-cyanonaphthalene\vibs\densum.dat" "C:\Users\musta\OneDrive\Documenten\Multiwell\multiwell-2023-windows\bin\outputs\densum.dat"
+cd "C:\Users\musta\OneDrive\Documenten\Multiwell\multiwell-2023-windows\bin\outputs"
+& "..\densum.exe"
+
