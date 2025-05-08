@@ -1,0 +1,76 @@
+Coronene vibs: scaled normal modes [Martin, Chem.Phys.Lett. 262 (1996) 97-104]; rots: attributed to Cossart-Magos & Leach, A&A, 233, 559 (1990) by Joblin et al., Mol.Phys. 100 (2002) 3595
+Coronene
+70    0    'HAR'   'cm-1'
+10.   501   1502   209705
+1    vib    864.9    0.0    1    !    A2u
+2    vib    567.1    0.0    1    !    A2u
+3    vib    127.3    0.0    1    !    A2u
+4    vib   3057.9    0.0    2    !    E1u 
+5    vib   3038.2    0.0    2    !    E1u
+6    vib   1622.5    0.0    2    !    E1u
+7    vib   1449.0    0.0    2    !    E1u
+8    vib   1405.4    0.0    2    !    E1u
+9    vib   1303.1    0.0    2    !    E1u
+10   vib   1202.1    0.0    2    !    E1u
+11   vib   1121.4    0.0    2    !    E1u
+12   vib    805.3    0.0    2    !    E1u
+13   vib    762.3    0.0    2    !    E1u
+14   vib    374.9    0.0    2    !    E1u
+15   vib   3055.9    0.0    2    !    E2g
+16   vib   3040.0    0.0    2    !    E2g
+17   vib   1624.3    0.0    2    !    E2g
+18   vib   1447.5    0.0    2    !    E2g
+19   vib   1438.7    0.0    2    !    E2g
+20   vib   1389.8    0.0    2    !    E2g
+21   vib   1221.7    0.0    2    !    E2g
+22   vib   1142.4    0.0    2    !    E2g
+23   vib    983.6    0.0    2    !    E2g
+24   vib    672.8    0.0    2    !    E2g
+25   vib    484.1    0.0    2    !    E2g
+26   vib    360.2    0.0    2    !    E2g
+27   vib   3059.3    0.0    1    !    A1g
+28   vib   1596.2    0.0    1    !    A1g
+29   vib   1348.1    0.0    1    !    A1g
+30   vib   1199.9    0.0    1    !    A1g
+31   vib   1016.7    0.0    1    !    A1g
+32   vib    472.4    0.0    1    !    A1g
+33   vib    942.4    0.0    1    !    A1u
+34   vib    517.0    0.0    1    !    A1u
+35   vib   3037.2    0.0    1    !    A2g
+36   vib   1531.2    0.0    1    !    A2g
+37   vib   1209.5    0.0    1    !    A2g
+38   vib    907.1    0.0    1    !    A2g
+39   vib    622.4    0.0    1    !    A2g
+40   vib    761.2    0.0    1    !    B1g
+41   vib    161.4    0.0    1    !    B1g
+42   vib   3040.9    0.0    1    !    B1u
+43   vib   1543.3    0.0    1    !    B1u
+44   vib   1389.6    0.0    1    !    B1u
+45   vib   1139.2    0.0    1    !    B1u
+46   vib    659.1    0.0    1    !    B1u
+47   vib    546.3    0.0    1    !    B1u
+48   vib    966.0    0.0    1    !    B2g
+49   vib    925.2    0.0    1    !    B2g
+50   vib    653.2    0.0    1    !    B2g
+51   vib    222.9    0.0    1    !    B2g
+52   vib   3054.7    0.0    1    !    B2u
+53   vib   1485.1    0.0    1    !    B2u
+54   vib   1342.5    0.0    1    !    B2u
+55   vib   1187.4    0.0    1    !    B2u
+56   vib   1118.5    0.0    1    !    B2u
+57   vib    464.9    0.0    1    !    B2u
+58   vib    949.4    0.0    2    !    E1g
+59   vib    842.9    0.0    2    !    E1g
+60   vib    674.2    0.0    2    !    E1g
+61   vib    448.9    0.0    2    !    E1g
+62   vib    295.1    0.0    2    !    E1g
+63   vib    959.1    0.0    2    !    E2u
+64   vib    844.1    0.0    2    !    E2u
+65   vib    778.7    0.0    2    !    E2u
+66   vib    552.1    0.0    2    !    E2u
+67   vib    297.2    0.0    2    !    E2u
+68   vib     86.2    0.0    2    !    E2u
+69   qro    0.005562   1   1   ! cm-1: attributed to Cossart-Magos and Leach, A&A, 233, 559 (1990) by Joblin et al., Mol.Phys. 100 (2002) 3595
+70   qro    0.011123  12   2   ! cm-1: attributed to Cossart-Magos and Leach, A&A, 233, 559 (1990) by Joblin et al., Mol.Phys. 100 (2002) 3595
+
+ Hudgins D. M., Bauschlicher Jr. C. W., Allamandola L. J., 2005, ApJ, 632, 316
