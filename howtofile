@@ -21,3 +21,18 @@ Copy-Item "C:\Users\musta\OneDrive\Documenten\Multiwell\Models\1-cyanonaphthalen
 cd "C:\Users\musta\OneDrive\Documenten\Multiwell\multiwell-2023-windows\bin\outputs"
 & "..\densum.exe"
 
+10. Running densum file from PC through PowerShell in Visual Studio Code:
+# Path to densum.exe
+$densumExe = "C:\Users\Mustafa\Documents\MultiWell\multiwell-2023-windows\bin\densum.exe"
+
+# First densum.dat path
+$datPath1 = "C:\Users\Mustafa\Documents\MultiWell\Models\coronene\vibs\densum.dat"
+Push-Location (Split-Path $datPath1)
+& $densumExe $datPath1
+Pop-Location
+
+# Second densum.dat path
+$datPath2 = "C:\Users\Mustafa\Documents\GitHub\Project-Cynap\Cynapfolder\Database\Densum_input_1cyano\TS-1-cyanonaphthalene\vibs\densum.dat"
+Push-Location (Split-Path $datPath2)
+& $densumExe $datPath2
+Pop-Location
