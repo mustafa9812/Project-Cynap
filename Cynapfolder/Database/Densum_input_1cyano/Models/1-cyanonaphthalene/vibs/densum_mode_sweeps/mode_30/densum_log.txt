@@ -1,0 +1,54 @@
+
+Calculating Densities
+           Mode no.    1    102.69
+           Mode no.    2    132.49
+           Mode no.    3    171.24
+           Mode no.    4    202.28
+           Mode no.    5    352.79
+           Mode no.    6    370.11
+           Mode no.    7    432.93
+           Mode no.    8    453.73
+           Mode no.    9    470.49
+           Mode no.   10    490.72
+           Mode no.   11    542.31
+           Mode no.   12    585.03
+           Mode no.   13    592.32
+           Mode no.   14    650.64
+           Mode no.   15    689.69
+           Mode no.   16    738.84
+           Mode no.   17    779.62
+           Mode no.   18    793.32
+           Mode no.   19    808.65
+           Mode no.   20    852.26
+           Mode no.   21    875.18
+           Mode no.   22    922.88
+           Mode no.   23    960.76
+           Mode no.   24    986.04
+           Mode no.   25    998.34
+           Mode no.   26   1011.05
+           Mode no.   27   1029.13
+           Mode no.   28   1065.96
+           Mode no.   29   1147.29
+           Mode no.   30   1174.76
+           Mode no.   31   1207.90
+           Mode no.   32   1225.33
+           Mode no.   33   1267.59
+           Mode no.   34   1326.69
+           Mode no.   35   1350.97
+           Mode no.   36   1389.97
+           Mode no.   37   1433.18
+           Mode no.   38   1454.37
+           Mode no.   39   1494.87
+           Mode no.   40   1552.63
+           Mode no.   41   1571.84
+           Mode no.   42   1600.66
+           Mode no.   43   2104.53
+           Mode no.   44   3055.93
+           Mode no.   45   3059.94
+           Mode no.   46   3066.79
+           Mode no.   47   3078.14
+           Mode no.   48   3078.82
+           Mode no.   49   3090.19
+           Mode no.   50   3093.84
+
+--- STDERR ---

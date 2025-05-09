@@ -1,0 +1,50 @@
+# IR-COOLING RATE -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# WAVENUMBER & INTENSITY DATA
+df = pd.read_csv('/Users/Mustafa/Documents/GitHub/Project-Cynap/Cynapfolder/Database/neutral1cyano_transitions.tbl', 
+                 skiprows=11, 
+                 sep='\s+', 
+                 names=["UID", "FREQUENCY", "INTENSITY", "SCALE", "SYMMETRY"])
+
+wavenumber_list = df["FREQUENCY"].tolist()
+intensity_list = df["INTENSITY"].tolist()
+
+# CONSTANTS & PARAMETERS
+max_photon_frequency = 2.0e15 
+min_photon_frequency = 5.0e14 
+
+# LISTS
+energies_list = []
+A_list = []
+k_IR_list = []
+T_eff_list = []
+frequency_list = np.logspace(np.log10(min_photon_frequency),np.log10(max_photon_frequency),num=51)
+
+# FUNCTIONS
+def PAH_effective_temperature(light_freq, Nc, bond_energy):
+    T_eff = 2000 * ((h_eV * light_freq) / Nc) ** 0.4 * (1 - 0.2 * bond_energy / (h_eV * light_freq)) # energies in eV
+    return T_eff
+
+def einstein_coefficient(wavenumber, intensity):
+    A = (1.2512 * 10**(-7)) * (wavenumber ** 2) * intensity
+    return A
+
+def IR_cooling_rate(A, T_eff, wavenumber):
+    freq_hz = wavenumber * c_cm
+    return A / (np.exp((h * freq_hz) / (k_B * T_eff) - 1))
+
+# CALCULATIONS
+for i in frequency_list:
+    T_eff = PAH_effective_temperature(i, Nc, N_bond_energy) 
+    T_eff_list.append(T_eff) 
+    energies_list.append(h_eV * i)
+
+for wavenumber, intensity, temperature in zip(wavenumber_list, intensity_list, T_eff_list):
+    A = einstein_coefficient(wavenumber, intensity)
+    k_IR = IR_cooling_rate(A, T_eff=temperature, wavenumber=wavenumber)
+
+    A_list.append(A)
+    k_IR_list.append(k_IR)
+
+# PLOTTING
+plt.plot(energies_list, k_IR_list, label='IR Cooling Rate', color='purple')
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
