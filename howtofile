@@ -36,3 +36,8 @@ $datPath2 = "C:\Users\Mustafa\Documents\GitHub\Project-Cynap\Cynapfolder\Databas
 Push-Location (Split-Path $datPath2)
 & $densumExe $datPath2
 Pop-Location
+
+$datPath3 = "C:\Users\Mustafa\Documents\GitHub\Project-Cynap\Cynapfolder\Database\Densum_input_1cyano\Models\C-1-cyanonaphthalene\vibs\densum.dat"
+Push-Location (Split-Path $datPath3)
+& $densumExe $datPath3
+Pop-Location
