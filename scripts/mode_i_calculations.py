@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Define paths
-densum_input_path = r"C:\Users\Mustafa\Documents\GitHub\Project-Cynap\Cynapfolder\Database\Densum_input_1cyano\Models\C-1-cyanonaphthalene\vibs\densum.dat"
+densum_input_path = r"C:\Users\Mustafa\Documents\GitHub\Project-Cynap\Cynapfolder\Database\Densum_input_1cyano\Models\C-2-cyanopyrene\vibs\densum.dat"
 densum_exe_path = r"C:\Users\Mustafa\Documents\MultiWell\multiwell-2023-windows\bin\densum.exe"
 output_dir = os.path.join(os.path.dirname(densum_input_path), "densum_mode_sweeps")
 
