@@ -1,0 +1,2 @@
+n_simulations	num_molecules	G0	overall_avg_years_to_zero	overall_std_years_to_zero	overall_avg_energy
+1000	10000	1	19456.62354551677	5320.235232091229	3.825411359568375
